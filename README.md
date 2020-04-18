@@ -12,3 +12,5 @@ If you have any tips or constructive criticism for me i am open to suggestions, 
 <a href='https://www.linkedin.com/in/felipe-d-santos-253577185/'>My Linkedin</a></br>
 <b>My Email: lycan.felipe@gmail.com</b>
 
+<img src='https://github.com/lycan-nt/my_portyfolio/blob/master/img.jpg'>
+
