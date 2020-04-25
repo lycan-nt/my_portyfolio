@@ -8,6 +8,7 @@
  
     <title>View My Work</title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -63,13 +64,22 @@
         <div class="projects">
 
             <div class="item">
+                <p>DevList</p>
                 <a href="#!">
                     <img src='img/projects/0.jpeg' alt='Project'>
                 </a>
-             
-                <a href="#" class="btn-light">
+
+                <div id="bg" ></div>
+                <div class="box" >
+
+                    <a href="" id="close">X</a>
+                    <p>About the <span class='text-secondary'>Project</span></p>                    
+                </div>
+
+                <a href="#bg"  class="btn-light" id="devList">
                     <i class='fas fa-eye'></i> Project
                 </a>
+
 
                 <a href="https://github.com/lycan-nt/DevList" target="_blank" class="btn-dark">
                     <i class='fab fa-github'></i> GitHub
@@ -78,11 +88,24 @@
             </div>
 
             <div class="item">
+                <p>Gamer Record</p>
+                
                 <a href="#!">
                     <img src='img/projects/Gamer_Record.png' alt='Project'>
                 </a>
+
+                <div id="bg" ></div>
+                <div class="box" >
+
+                    <a href="" id="close">X</a>
+                    <p>About the <span class='text-secondary'>Project2</span></p>    
+                    
+                    <div id="pj2">
+                        
+                    </div>
+                </div>
              
-                <a href="#" class="btn-light">
+                <a href="#bg" href="project2" class="btn-light">
                     <i class='fas fa-eye'></i> Project
                 </a>
 
@@ -94,6 +117,7 @@
 
             
             <div class="item">
+                <p>Flappy-Bird</p>
                 <a href="#!">
                     <img src='img/projects/Flapy.png' alt='Project'>
                 </a>
@@ -118,5 +142,6 @@
 
     <script src="https://kit.fontawesome.com/6d5abd22c1.js" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="js/work.js"></script>
 </body>
 </html>
