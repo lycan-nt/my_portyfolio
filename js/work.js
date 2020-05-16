@@ -1,3 +1,3 @@
-function carregar(pagina) {
-    $("#devlist").load(pagina);
-}
+const devList = document.querySelector("#pj2");
+
+devList
