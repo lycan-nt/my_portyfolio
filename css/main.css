@@ -285,6 +285,8 @@ main {
 
 
 
+<<<<<<< HEAD
+=======
 /* Works Style*/
 #bg{
   width: 100%;
@@ -337,8 +339,6 @@ main {
   right: 0;
 
 }
+>>>>>>> 6eabeef5d54fa755d3b0f8e0b8e36319f6dfe24d
 
-#close:hover{
-  opacity: 0.6;
 
-}
