@@ -36,6 +36,29 @@ body {
     text-align: justify;
 }
 
+.repo {
+    width: 150px;
+    height: 30px;
+
+    margin-left: 10px;
+    border-radius: 8px;
+       
+}
+
+.repo a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+.repo:hover {
+    cursor: pointer;
+    background-color: #eece1a;
+
+    transition: background-color 1s;
+}
+
 .boxpjt h2 {
     margin-left: 10px;
 
