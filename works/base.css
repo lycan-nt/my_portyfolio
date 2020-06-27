@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #eece1a;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +11,13 @@ body {
     background-color: #373737;
 }
 
-.teste {
+.page {
     display: flex;
 }
 
 .boxpjt {
+
+   
    
     margin-left: 2%;
     margin-top: 2%;
@@ -19,9 +25,9 @@ body {
     width: 70%;
     height: auto;
     background-color: white;
-    border: solid 3px #eece1a;
+    border: solid 3px var(--primary-color);
     border-radius: 8px;
-    
+
 }
 
 .boxpjt h1 {
@@ -54,7 +60,7 @@ body {
 
 .repo:hover {
     cursor: pointer;
-    background-color: #eece1a;
+    background-color: var(--primary-color);
 
     transition: background-color 1s;
 }
@@ -76,14 +82,99 @@ body {
 
 
 .profile {
+   
+
     float: right;
 
     background-color: white;
-    margin-top: 2%;
+    margin-top: 8%;
     margin-left: 15px;
 
-    border: solid 2px #eece1a;
+    border: solid 2px var(--primary-color);
     border-radius: 8px;
 
-    height: 219px;;
+    height: 219px;
+    width: 290px;    
+
 }
+
+
+
+/*Form contac-me*/
+form {
+    margin-top: 250px;
+    margin-left: 20px;
+    width: 290px;
+   
+}
+
+
+
+form.contact {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    border: solid 2px var(--primary-color);
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+form.contact h1 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: var(--primary-color);
+    text-shadow: 5px 5px 5px black;
+}
+
+form.contact 
+input, 
+textarea {
+    width: 250px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+
+    margin-top: 2px;
+}
+
+form.contact .btnsub {
+    border: solid 2px black;
+    margin-bottom: 10px;
+    
+}
+
+form.contact .btnsub:hover {
+    background-color: var(--primary-color);
+    transition: background-color 1s;
+    cursor: pointer;
+}
+
+form.contact .submit input {
+    background-color: #66ffff;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+}
+
+form.contact textarea {
+    width: 250px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 250px;
+}
+
+form.contact label {
+    margin-left: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+
+
