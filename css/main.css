@@ -273,7 +273,8 @@ main {
  'bio'
  'job1'
  'job2'
- 'job3';
+ 'job3'
+ 'job4';
     grid-template-areas: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } 
