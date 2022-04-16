@@ -16,18 +16,14 @@ body {
 }
 
 .boxpjt {
-
-   
-   
-    margin-left: 2%;
+    /* margin-left: 1%; */
     margin-top: 2%;
     margin-bottom: 2%;
-    width: 70%;
+    width: 100%;
     height: auto;
     background-color: white;
     border: solid 3px var(--primary-color);
     border-radius: 8px;
-
 }
 
 .boxpjt h1 {
@@ -75,7 +71,7 @@ body {
 .boxpjt img {
     
     padding: 10px;
-    height: 400px;
+    height: 49vh;
     width: 99%;
 }
 
